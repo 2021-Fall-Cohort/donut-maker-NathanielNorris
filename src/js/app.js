@@ -95,8 +95,9 @@ window.setInterval(() => {
 
 function updateUi(){
     clickHeading.innerHTML = `Buy Lumpia: ${lumpia.toFixed(2)}`;
-    autoHeading.innerHTML = `AutoClickers: ${autoClickerAmount}`;
     multiplierHeading.innerHTML = `Multiplier: ${multiplierAmount}`;
+    autoHeading.innerHTML = `AutoClickers: ${autoClickerAmount}`;
+    
     if(lumpia >= 10 ){
         multiplierBtn.disabled = false; 
         
